@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Challenge Encriptdor de texto</title>
+</head>
+<body>
+    <header class="contenedor">
+        <img class="logo" src="./elementos/Logo.png" alt="Logo-principal">
+    </header>
+    <main>
+        <section>
+            <div>
+                <textarea class="textarea-encriptar"
+                placeholder="Ingrese el texto"></textarea>
+            </div>
+            <div>
+                <img class="img-vector" src="./elementos/Vector.png" alt="icono-de-alerta">
+                <p class="texto-vector">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="buttons">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="section-dos">
+            <div class="mensaje">
+                <textarea class="textarea-desencriptar"></textarea>
+            </div>
+            <div class="texto-section-dos">
+                <h3>Ningún mensaje fue  <br>encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>          
+            <div>
+                <button class="btn-copiar">Copiar</button>
+            </div>   
+            <span id="message"></span>     
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="nombre">Génesis Salas 2023</p> 
+        <a class="github" href="https://github.com/genesalas"><img src="./elementos/25231.png"></a>
+        <a class="linkedin" href="https://www.linkedin.com/in/genesis-salas/"><img src="./elementos/Logo linkedin.png"></a>
+    </footer>
+    <script src="./código.js"></script>
+</body>
+</html>
