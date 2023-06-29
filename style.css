@@ -110,7 +110,7 @@ section{
 
 .textarea-desencriptar{
     position: absolute;
-    background-image: url(./elementos/Muneco.png);
+    background-image: url(./elementos/mujer.png);
     background-repeat: no-repeat;
     top: 70px;
     left: 10px;
@@ -173,7 +173,7 @@ section{
     margin-top: auto;
     display: flex;
     justify-content: center;
-    gap: 1px;
+    gap: 5px;
     padding: 10px;
 }
 
@@ -187,8 +187,8 @@ section{
 }
 
 .github img{
-    width: 60px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
 
 .linkedin img{
