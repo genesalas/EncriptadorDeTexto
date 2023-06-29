@@ -236,7 +236,7 @@ section{
     }
 
     .textarea-desencriptar{
-        background-image: url(/elementos/Muñeco.png);
+        background-image: url(./elementos/mujer.png);
         background-position: center;
         width: 95%;
         height: 350px;
@@ -307,7 +307,7 @@ section{
     }
 
     .textarea-desencriptar{
-        background-image: url(/elementos/Muñeco.png);
+        background-image: url(./elementos/mujer.png);
         background-position: center;
         width: 95%;
         height: 350px;
