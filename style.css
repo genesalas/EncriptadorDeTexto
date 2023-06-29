@@ -173,7 +173,7 @@ section{
     margin-top: auto;
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 1px;
     padding: 10px;
 }
 
@@ -187,8 +187,8 @@ section{
 }
 
 .github img{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 35px;
 }
 
 .linkedin img{
