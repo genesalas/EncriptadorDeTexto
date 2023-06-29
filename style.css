@@ -110,7 +110,7 @@ section{
 
 .textarea-desencriptar{
     position: absolute;
-    background-image: url(/elementos/Muñeco.png);
+    background-image: url(./elementos/Muneco.png);
     background-repeat: no-repeat;
     top: 70px;
     left: 10px;
